@@ -15,6 +15,9 @@
 		723B28A31E25ED8900CBE1BD /* SelfigramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B28A21E25ED8900CBE1BD /* SelfigramTests.swift */; };
 		723B28AE1E25ED8900CBE1BD /* SelfigramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B28AD1E25ED8900CBE1BD /* SelfigramUITests.swift */; };
 		723B29181E2F22D900CBE1BD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B29171E2F22D900CBE1BD /* ProfileViewController.swift */; };
+		723B291C1E385A4F00CBE1BD /* NewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B291B1E385A4F00CBE1BD /* NewsFeedController.swift */; };
+		723B291E1E38616000CBE1BD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B291D1E38616000CBE1BD /* User.swift */; };
+		723B29201E3862CD00CBE1BD /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B291F1E3862CD00CBE1BD /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		723B28AD1E25ED8900CBE1BD /* SelfigramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfigramUITests.swift; sourceTree = "<group>"; };
 		723B28AF1E25ED8900CBE1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		723B29171E2F22D900CBE1BD /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		723B291B1E385A4F00CBE1BD /* NewsFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsFeedController.swift; path = ../NewsFeedController.swift; sourceTree = "<group>"; };
+		723B291D1E38616000CBE1BD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		723B291F1E3862CD00CBE1BD /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				723B288D1E25ED8900CBE1BD /* AppDelegate.swift */,
 				723B288F1E25ED8900CBE1BD /* ViewController.swift */,
+				723B291B1E385A4F00CBE1BD /* NewsFeedController.swift */,
 				723B28911E25ED8900CBE1BD /* Main.storyboard */,
+				723B291D1E38616000CBE1BD /* User.swift */,
+				723B291F1E3862CD00CBE1BD /* Post.swift */,
 				723B29171E2F22D900CBE1BD /* ProfileViewController.swift */,
 				723B28941E25ED8900CBE1BD /* Assets.xcassets */,
 				723B28961E25ED8900CBE1BD /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				723B291C1E385A4F00CBE1BD /* NewsFeedController.swift in Sources */,
 				723B29181E2F22D900CBE1BD /* ProfileViewController.swift in Sources */,
 				723B28901E25ED8900CBE1BD /* ViewController.swift in Sources */,
+				723B29201E3862CD00CBE1BD /* Post.swift in Sources */,
+				723B291E1E38616000CBE1BD /* User.swift in Sources */,
 				723B288E1E25ED8900CBE1BD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
